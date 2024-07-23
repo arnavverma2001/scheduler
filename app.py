@@ -8,7 +8,7 @@ app.config['SESSION_TYPE'] = 'filesystem'  # You can customize this to your need
 Session(app)
 
 
-openai.api_key = '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'
+openai.api_key = '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' #disabled key don't use
 
 # API endpoint manually add employees
 @app.route('/add_employee_api', methods=['POST'])
